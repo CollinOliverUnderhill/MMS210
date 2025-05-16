@@ -1,0 +1,21 @@
+Cluster 0:
+  avg_speed: 84.9251
+  avg_acceleration: 196.6713
+  avg_jerk: 0.0000
+  avg_turning_rate: 0.0234
+  energy_efficiency: 212077353.4323
+
+Cluster 1:
+  avg_speed: 19.1789
+  avg_acceleration: -287.6708
+  avg_jerk: 0.0000
+  avg_turning_rate: 0.0358
+  energy_efficiency: 204879439.7882
+
+Cluster 2:
+  avg_speed: 16.3702
+  avg_acceleration: 965.7669
+  avg_jerk: 0.0000
+  avg_turning_rate: 0.3762
+  energy_efficiency: 211296955.4608
+
