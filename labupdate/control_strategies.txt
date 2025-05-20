@@ -1,0 +1,44 @@
+==================================================
+ECO-DRIVING CONTROL STRATEGIES
+==================================================
+
+Cluster 0:
+------------------------------
+  driver_type: aggressive
+  acceleration_smoothing: True
+  smooth_factor: 0.5000
+  anticipation_distance: 183.2415
+  eco_mode_bias: 0.7000
+  jerk_limit: 0.3000
+  notes: High jerk and acceleration variation indicate aggressive driving
+  avg_energy_consumption: 821777.8940
+  energy_saving_target: 0.2500
+
+Cluster 1:
+------------------------------
+  driver_type: aggressive
+  acceleration_smoothing: True
+  smooth_factor: 0.5000
+  anticipation_distance: 537.2743
+  eco_mode_bias: 0.7000
+  jerk_limit: 0.3000
+  notes: High jerk and acceleration variation indicate aggressive driving
+  avg_energy_consumption: 928149.7471
+  energy_saving_target: 0.2500
+
+Cluster 2:
+------------------------------
+  driver_type: aggressive
+  acceleration_smoothing: True
+  smooth_factor: 0.8000
+  anticipation_distance: 257.6912
+  eco_mode_bias: 0.7000
+  jerk_limit: 0.3000
+  notes: High jerk and acceleration variation indicate aggressive driving
+  avg_energy_consumption: 857534.5198
+  energy_saving_target: 0.2500
+
+
+==================================================
+END OF CONTROL STRATEGIES
+==================================================
