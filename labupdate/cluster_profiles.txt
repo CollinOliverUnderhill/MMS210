@@ -4,37 +4,43 @@ ECO-DRIVING CLUSTER PROFILES
 
 Cluster 0:
 ------------------------------
-  count: 714
-  avg_speed: 16.6483
-  avg_acceleration: -14.9709 m/s²)
-  avg_jerk: -4.4428
-  avg_turning_rate: 0.0105
-  energy_efficiency: 821777.8940
-  std_speed: 17.9313
-  std_acceleration: 227.3531 m/s²)
-  max_jerk: 2071.4746
+  size: 35
+  avg_speed: 16.1674 m/s
+  std_speed: 9.7844 m/s
+  avg_acceleration: -0.4951 g)
+  std_acceleration: 0.0862 g)
+  avg_jerk: -0.8660
+  std_jerk: 7.2530
+  avg_turning_rate: 0.0612
+  std_turning_rate: 0.0757
+  energy_efficiency: 2.6597
+  driver_type: dynamic
 
 Cluster 1:
 ------------------------------
-  count: 626
-  avg_speed: 87.4549
-  avg_acceleration: 11.9489 m/s²)
-  avg_jerk: -4.9541
-  avg_turning_rate: 0.0145
-  energy_efficiency: 928149.7471
-  std_speed: 14.8339
-  std_acceleration: 152.7316 m/s²)
-  max_jerk: 2211.5733
+  size: 21
+  avg_speed: 22.2623 m/s
+  std_speed: 7.0923 m/s
+  avg_acceleration: 0.5097 g)
+  std_acceleration: 0.0000 g)
+  avg_jerk: -1.3209
+  std_jerk: 8.7788
+  avg_turning_rate: 0.0299
+  std_turning_rate: 0.0422
+  energy_efficiency: 174.4722
+  driver_type: dynamic
 
 Cluster 2:
 ------------------------------
-  count: 452
-  avg_speed: 31.5382
-  avg_acceleration: 16.0097 m/s²)
-  avg_jerk: 1.7918
-  avg_turning_rate: 0.0849
-  energy_efficiency: 857534.5198
-  std_speed: 23.6882
-  std_acceleration: 255.0595 m/s²)
-  max_jerk: 2269.3555
+  size: 11
+  avg_speed: 8.9556 m/s
+  std_speed: 3.4293 m/s
+  avg_acceleration: 0.5097 g)
+  std_acceleration: 0.0000 g)
+  avg_jerk: 1.8838
+  std_jerk: 8.2202
+  avg_turning_rate: 0.3374
+  std_turning_rate: 0.1085
+  energy_efficiency: 152.9660
+  driver_type: dynamic
 
