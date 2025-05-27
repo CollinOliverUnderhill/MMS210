@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "analysis_date": "2025-05-27T14:58:31.284752",
+    "version": "2.1",
+    "data_points": 667,
+    "duration_minutes": 1.1183333333333334e-05,
+    "total_distance_km": 0.0007992119940869444
+  },
+  "driving_summary": {
+    "max_speed_kmh": 91.762894,
+    "avg_speed_kmh": 28.901073641679154,
+    "total_hard_brakes": 1,
+    "hard_brakes_per_hour": 10.0
+  },
+  "cluster_analysis": {
+    "0": {
+      "size": 293,
+      "avg_speed": 5.890244922260145,
+      "std_speed": 5.05260575996775,
+      "avg_acceleration": 8.0,
+      "std_acceleration": 0.0,
+      "avg_jerk": 0.0,
+      "std_jerk": 0.0,
+      "avg_turning_rate": 0.058594,
+      "std_turning_rate": 2.9193214748342386e-16,
+      "energy_efficiency": 332.1139094238385,
+      "total_time_s": 3.92,
+      "total_distance_km": 0.018369710222222224,
+      "driver_type": "normal"
+    },
+    "1": {
+      "size": 142,
+      "avg_speed": 18.875549958920185,
+      "std_speed": 3.6138237945355574,
+      "avg_acceleration": -3.1549295774647885,
+      "std_acceleration": 7.377650527096687,
+      "avg_jerk": 0.0,
+      "std_jerk": 0.0,
+      "avg_turning_rate": 0.05859400000000001,
+      "std_turning_rate": 5.570765149610245e-17,
+      "energy_efficiency": 82.38175350926474,
+      "total_time_s": 2.41,
+      "total_distance_km": 0.03929131721666667,
+      "driver_type": "dynamic"
+    },
+    "2": {
+      "size": 232,
+      "avg_speed": 4.088607083333333,
+      "std_speed": 4.469903098206718,
+      "avg_acceleration": -7.862068965517256,
+      "std_acceleration": 1.043608058024042,
+      "avg_jerk": 0.0,
+      "std_jerk": 0.0,
+      "avg_turning_rate": 0.058594000000000014,
+      "std_turning_rate": 2.086169080580756e-16,
+      "energy_efficiency": 0.33869349561321527,
+      "total_time_s": 3.3099999999999996,
+      "total_distance_km": 0.010271418333333332,
+      "driver_type": "cautious"
+    }
+  },
+  "recommendations": [
+    {
+      "category": "Performance",
+      "priority": "Low",
+      "message": "Cluster 2 shows very cautious driving. Consider slightly more dynamic acceleration when safe.",
+      "impact": "May improve traffic flow while maintaining safety"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+data_type,timestamp,latitude,longitude,altitude,speed_kmh,satellites,speed_ms,relative_time_s,distance,gradient,acceleration,speed_smooth,speed_change,speed_change_rate,speed_change_pct,hard_brake_candidate,is_speed_peak,hard_brake_refined,hard_brake_final,hard_brake_filtered
+0,1747221682,57.687534,11.980996,57.0,24.055628,12,6.682118888888889,1.1e-05,7.5681192999787275,0.03963983495884412,-8.0,23.71988651428569,-2.4792989428571417,-2479298.9428571444,-0.09115342614813665,True,False,False,True,True

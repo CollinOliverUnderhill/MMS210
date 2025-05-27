@@ -1,0 +1,66 @@
+================================================================================
+ECO-DRIVING ANALYSIS REPORT - STARTUP PHASE
+================================================================================
+
+Analysis Date: 2025-05-27T14:58:31.284752
+System Version: 2.1 (Microsecond Precision)
+Data Points: 667
+Duration: 0.0 minutes
+Total Distance: 0.001 km
+
+DRIVING SUMMARY (STARTUP PHASE):
+----------------------------------------
+Maximum Speed: 91.8 km/h
+Average Speed: 28.9 km/h
+Total Hard Brakes: 1
+Hard Brakes per Hour: 10.0
+
+DRIVER BEHAVIOR CLUSTERS (STARTUP PHASE):
+----------------------------------------
+
+Cluster 0 - NORMAL:
+  Sample Size: 293 points
+  Average Speed: 21.2 km/h
+  Average Acceleration: 8.000 m/s²
+  Average Jerk: 0.000 m/s³ (instantaneous)
+  Average Turning Rate: 0.059 rad/s
+  Energy Efficiency: 332.11 kWh/100km
+  Total Distance: 0.0184 km
+  Total Time: 3.9 seconds
+
+Cluster 1 - DYNAMIC:
+  Sample Size: 142 points
+  Average Speed: 68.0 km/h
+  Average Acceleration: -3.155 m/s²
+  Average Jerk: 0.000 m/s³ (instantaneous)
+  Average Turning Rate: 0.059 rad/s
+  Energy Efficiency: 82.38 kWh/100km
+  Total Distance: 0.0393 km
+  Total Time: 2.4 seconds
+
+Cluster 2 - CAUTIOUS:
+  Sample Size: 232 points
+  Average Speed: 14.7 km/h
+  Average Acceleration: -7.862 m/s²
+  Average Jerk: 0.000 m/s³ (instantaneous)
+  Average Turning Rate: 0.059 rad/s
+  Energy Efficiency: 0.34 kWh/100km
+  Total Distance: 0.0103 km
+  Total Time: 3.3 seconds
+
+HARD BRAKE EVENTS DETAIL:
+----------------------------------------
+  Event 1: 0.0 min - Speed: 24.1 km/h, Acceleration: -8.00 m/s²
+
+RECOMMENDATIONS:
+----------------------------------------
+1. [Performance - Low] Cluster 2 shows very cautious driving. Consider slightly more dynamic acceleration when safe.
+   Impact: May improve traffic flow while maintaining safety
+
+TECHNICAL NOTES:
+--------------------
+• Timestamp precision: Microseconds
+• Analysis focus: Vehicle startup phase
+• Jerk calculation: Instantaneous values preserved
+• Acceleration: Real GPS-based calculation with synthetic backup
+• Energy model: Adapted for low-speed urban driving
