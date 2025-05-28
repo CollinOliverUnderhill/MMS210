@@ -1,0 +1,18 @@
+Cluster 0:
+  acceleration_smoothing: True
+  smooth_factor: 0.4
+  anticipation_distance: 334.7752581430575
+  eco_mode_bias: 0.8
+
+Cluster 1:
+  acceleration_smoothing: False
+  smooth_factor: 0.1
+  anticipation_distance: 98.35779530882354
+  eco_mode_bias: 0.3
+
+Cluster 2:
+  acceleration_smoothing: True
+  smooth_factor: 0.4
+  anticipation_distance: 129.11062109448818
+  eco_mode_bias: 0.8
+

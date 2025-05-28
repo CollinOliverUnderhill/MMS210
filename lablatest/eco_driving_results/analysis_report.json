@@ -1,70 +1,82 @@
 {
   "metadata": {
-    "analysis_date": "2025-05-27T14:58:31.284752",
+    "analysis_date": "2025-05-28T02:17:02.508179",
     "version": "2.1",
     "data_points": 667,
-    "duration_minutes": 1.1183333333333334e-05,
-    "total_distance_km": 0.0007992119940869444
+    "duration_minutes": 11.183333333333334,
+    "total_distance_km": 5.425010096944445
   },
   "driving_summary": {
     "max_speed_kmh": 91.762894,
     "avg_speed_kmh": 28.901073641679154,
-    "total_hard_brakes": 1,
-    "hard_brakes_per_hour": 10.0
+    "total_hard_brakes": 12,
+    "hard_brakes_per_hour": 64.38152011922504
   },
   "cluster_analysis": {
     "0": {
-      "size": 293,
-      "avg_speed": 5.890244922260145,
-      "std_speed": 5.05260575996775,
-      "avg_acceleration": 8.0,
-      "std_acceleration": 0.0,
-      "avg_jerk": 0.0,
-      "std_jerk": 0.0,
-      "avg_turning_rate": 0.058594,
-      "std_turning_rate": 2.9193214748342386e-16,
-      "energy_efficiency": 332.1139094238385,
-      "total_time_s": 3.92,
-      "total_distance_km": 0.018369710222222224,
-      "driver_type": "normal"
+      "size": 321,
+      "avg_speed": 14.085056188127378,
+      "std_speed": 5.281019034909197,
+      "avg_acceleration": 0.20711810978423906,
+      "std_acceleration": 0.6069385050465063,
+      "avg_jerk": 0.4140559308751753,
+      "std_jerk": 20.07697614199011,
+      "avg_turning_rate": 0.033799389408099685,
+      "std_turning_rate": 0.03580374734063827,
+      "energy_efficiency": 12.895644026234034,
+      "total_time_s": 457.0,
+      "total_distance_km": 5.405167980833333,
+      "driver_type": "efficient"
     },
     "1": {
-      "size": 142,
-      "avg_speed": 18.875549958920185,
-      "std_speed": 3.6138237945355574,
-      "avg_acceleration": -3.1549295774647885,
-      "std_acceleration": 7.377650527096687,
-      "avg_jerk": 0.0,
-      "std_jerk": 0.0,
-      "avg_turning_rate": 0.05859400000000001,
-      "std_turning_rate": 5.570765149610245e-17,
-      "energy_efficiency": 82.38175350926474,
-      "total_time_s": 2.41,
-      "total_distance_km": 0.03929131721666667,
-      "driver_type": "dynamic"
+      "size": 291,
+      "avg_speed": 1.7738521754486445,
+      "std_speed": 3.092929962169574,
+      "avg_acceleration": -0.24811602138220692,
+      "std_acceleration": 0.6015245423812755,
+      "avg_jerk": 0.1779191909614681,
+      "std_jerk": 10.07745662861119,
+      "avg_turning_rate": 0.014067807560137457,
+      "std_turning_rate": 0.02877843886717631,
+      "energy_efficiency": 0.7489976406920852,
+      "total_time_s": 438.0,
+      "total_distance_km": 1.8488336013888884,
+      "driver_type": "cautious"
     },
     "2": {
-      "size": 232,
-      "avg_speed": 4.088607083333333,
-      "std_speed": 4.469903098206718,
-      "avg_acceleration": -7.862068965517256,
-      "std_acceleration": 1.043608058024042,
-      "avg_jerk": 0.0,
-      "std_jerk": 0.0,
-      "avg_turning_rate": 0.058594000000000014,
-      "std_turning_rate": 2.086169080580756e-16,
-      "energy_efficiency": 0.33869349561321527,
-      "total_time_s": 3.3099999999999996,
-      "total_distance_km": 0.010271418333333332,
-      "driver_type": "cautious"
+      "size": 55,
+      "avg_speed": 5.767866914141415,
+      "std_speed": 2.7917045681903523,
+      "avg_acceleration": 0.4107137323232324,
+      "std_acceleration": 0.5642062095140572,
+      "avg_jerk": -1.2596828459909546,
+      "std_jerk": 22.28042994721487,
+      "avg_turning_rate": 0.25887781818181826,
+      "std_turning_rate": 0.08905385641515348,
+      "energy_efficiency": 7.166675310976508,
+      "total_time_s": 157.0,
+      "total_distance_km": 0.9066481477777777,
+      "driver_type": "cornering"
     }
   },
   "recommendations": [
     {
+      "category": "Safety",
+      "priority": "High",
+      "message": "Several hard-brake incidents detected in start-up phase. Maintain smoother acceleration.",
+      "impact": "Lower brake wear and better comfort"
+    },
+    {
+      "category": "Positive",
+      "priority": "Low",
+      "message": "Cluster 0 demonstrates efficient driving. Excellent energy management.",
+      "impact": "Energy efficiency: 12.9 kWh/100 km"
+    },
+    {
       "category": "Performance",
       "priority": "Low",
-      "message": "Cluster 2 shows very cautious driving. Consider slightly more dynamic acceleration when safe.",
-      "impact": "May improve traffic flow while maintaining safety"
+      "message": "Cluster 1 is very cautious. Slightly more dynamic acceleration when safe could improve flow.",
+      "impact": "Better traffic integration while maintaining safety"
     }
   ]
 }

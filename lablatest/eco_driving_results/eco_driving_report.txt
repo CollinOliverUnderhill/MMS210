@@ -1,66 +1,79 @@
 ================================================================================
-ECO-DRIVING ANALYSIS REPORT - STARTUP PHASE
+ECO-DRIVING ANALYSIS REPORT (START-UP PHASE)
 ================================================================================
 
-Analysis Date: 2025-05-27T14:58:31.284752
-System Version: 2.1 (Microsecond Precision)
-Data Points: 667
-Duration: 0.0 minutes
-Total Distance: 0.001 km
+Analysis date: 2025-05-28T02:17:02.508179
+Version: 2.1 (µs precision)
+Data points: 667
+Duration: 11.2 min
+Distance: 5.425 km
 
-DRIVING SUMMARY (STARTUP PHASE):
+DRIVING SUMMARY
 ----------------------------------------
-Maximum Speed: 91.8 km/h
-Average Speed: 28.9 km/h
-Total Hard Brakes: 1
-Hard Brakes per Hour: 10.0
+Max speed: 91.8 km/h
+Average speed: 28.9 km/h
+Hard brakes: 12
+Hard brakes/h: 64.4
 
-DRIVER BEHAVIOR CLUSTERS (STARTUP PHASE):
+CLUSTER DETAILS
 ----------------------------------------
 
-Cluster 0 - NORMAL:
-  Sample Size: 293 points
-  Average Speed: 21.2 km/h
-  Average Acceleration: 8.000 m/s²
-  Average Jerk: 0.000 m/s³ (instantaneous)
-  Average Turning Rate: 0.059 rad/s
-  Energy Efficiency: 332.11 kWh/100km
-  Total Distance: 0.0184 km
-  Total Time: 3.9 seconds
+Cluster 0 – EFFICIENT
+  Samples: 321
+  Avg speed: 50.7 km/h
+  Avg acceleration: 0.207 m/s²
+  Avg jerk: 0.414 m/s³
+  Avg turning rate: 0.034 rad/s
+  Efficiency: 12.90 kWh/100 km
+  Distance: 5.4052 km
+  Time: 457.0 s
 
-Cluster 1 - DYNAMIC:
-  Sample Size: 142 points
-  Average Speed: 68.0 km/h
-  Average Acceleration: -3.155 m/s²
-  Average Jerk: 0.000 m/s³ (instantaneous)
-  Average Turning Rate: 0.059 rad/s
-  Energy Efficiency: 82.38 kWh/100km
-  Total Distance: 0.0393 km
-  Total Time: 2.4 seconds
+Cluster 1 – CAUTIOUS
+  Samples: 291
+  Avg speed: 6.4 km/h
+  Avg acceleration: -0.248 m/s²
+  Avg jerk: 0.178 m/s³
+  Avg turning rate: 0.014 rad/s
+  Efficiency: 0.75 kWh/100 km
+  Distance: 1.8488 km
+  Time: 438.0 s
 
-Cluster 2 - CAUTIOUS:
-  Sample Size: 232 points
-  Average Speed: 14.7 km/h
-  Average Acceleration: -7.862 m/s²
-  Average Jerk: 0.000 m/s³ (instantaneous)
-  Average Turning Rate: 0.059 rad/s
-  Energy Efficiency: 0.34 kWh/100km
-  Total Distance: 0.0103 km
-  Total Time: 3.3 seconds
+Cluster 2 – CORNERING
+  Samples: 55
+  Avg speed: 20.8 km/h
+  Avg acceleration: 0.411 m/s²
+  Avg jerk: -1.260 m/s³
+  Avg turning rate: 0.259 rad/s
+  Efficiency: 7.17 kWh/100 km
+  Distance: 0.9066 km
+  Time: 157.0 s
 
-HARD BRAKE EVENTS DETAIL:
+HARD BRAKE DETAILS
 ----------------------------------------
-  Event 1: 0.0 min - Speed: 24.1 km/h, Acceleration: -8.00 m/s²
+  1: 0.3 min – Speed 12.5 km/h, Acc -1.29 m/s²
+  2: 0.6 min – Speed 11.5 km/h, Acc -1.49 m/s²
+  3: 0.8 min – Speed 20.0 km/h, Acc -1.40 m/s²
+  4: 1.0 min – Speed 26.5 km/h, Acc -1.39 m/s²
+  5: 2.1 min – Speed 25.2 km/h, Acc -1.19 m/s²
+  6: 3.7 min – Speed 11.5 km/h, Acc -1.30 m/s²
+  7: 4.1 min – Speed 13.2 km/h, Acc -0.35 m/s²
+  8: 6.2 min – Speed 21.4 km/h, Acc -1.33 m/s²
+  9: 6.2 min – Speed 10.3 km/h, Acc -1.09 m/s²
+  10: 7.2 min – Speed 29.1 km/h, Acc -3.32 m/s²
+  11: 9.8 min – Speed 61.2 km/h, Acc -1.52 m/s²
+  12: 10.6 min – Speed 42.3 km/h, Acc -0.50 m/s²
 
-RECOMMENDATIONS:
+RECOMMENDATIONS
 ----------------------------------------
-1. [Performance - Low] Cluster 2 shows very cautious driving. Consider slightly more dynamic acceleration when safe.
-   Impact: May improve traffic flow while maintaining safety
+1. [Safety – High] Several hard-brake incidents detected in start-up phase. Maintain smoother acceleration.
+   Impact: Lower brake wear and better comfort
 
-TECHNICAL NOTES:
+2. [Positive – Low] Cluster 0 demonstrates efficient driving. Excellent energy management.
+   Impact: Energy efficiency: 12.9 kWh/100 km
+
+3. [Performance – Low] Cluster 1 is very cautious. Slightly more dynamic acceleration when safe could improve flow.
+   Impact: Better traffic integration while maintaining safety
+
+TECHNICAL NOTES
 --------------------
-• Timestamp precision: Microseconds
-• Analysis focus: Vehicle startup phase
-• Jerk calculation: Instantaneous values preserved
-• Acceleration: Real GPS-based calculation with synthetic backup
-• Energy model: Adapted for low-speed urban driving
+µs timestamps; start-up phase focus; real GPS-based acceleration; instant jerk

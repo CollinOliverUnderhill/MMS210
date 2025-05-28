@@ -1,0 +1,46 @@
+==================================================
+ECO-DRIVING CLUSTER PROFILES
+==================================================
+
+Cluster 0:
+------------------------------
+  size: 35
+  avg_speed: 16.1674 m/s
+  std_speed: 9.7844 m/s
+  avg_acceleration: -0.4951 g)
+  std_acceleration: 0.0862 g)
+  avg_jerk: -0.8660
+  std_jerk: 7.2530
+  avg_turning_rate: 0.0612
+  std_turning_rate: 0.0757
+  energy_efficiency: 2.6597
+  driver_type: dynamic
+
+Cluster 1:
+------------------------------
+  size: 21
+  avg_speed: 22.2623 m/s
+  std_speed: 7.0923 m/s
+  avg_acceleration: 0.5097 g)
+  std_acceleration: 0.0000 g)
+  avg_jerk: -1.3209
+  std_jerk: 8.7788
+  avg_turning_rate: 0.0299
+  std_turning_rate: 0.0422
+  energy_efficiency: 174.4722
+  driver_type: dynamic
+
+Cluster 2:
+------------------------------
+  size: 11
+  avg_speed: 8.9556 m/s
+  std_speed: 3.4293 m/s
+  avg_acceleration: 0.5097 g)
+  std_acceleration: 0.0000 g)
+  avg_jerk: 1.8838
+  std_jerk: 8.2202
+  avg_turning_rate: 0.3374
+  std_turning_rate: 0.1085
+  energy_efficiency: 152.9660
+  driver_type: dynamic
+
