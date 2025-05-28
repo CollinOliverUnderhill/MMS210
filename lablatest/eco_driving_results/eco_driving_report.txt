@@ -2,7 +2,7 @@
 ECO-DRIVING ANALYSIS REPORT (START-UP PHASE)
 ================================================================================
 
-Analysis date: 2025-05-28T02:41:51.942174
+Analysis date: 2025-05-28T10:27:33.949303
 Version: 2.1 (µs precision)
 Data points: 667
 Duration: 11.2 min

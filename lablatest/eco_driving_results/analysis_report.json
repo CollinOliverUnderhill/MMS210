@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "analysis_date": "2025-05-28T02:41:51.942174",
+    "analysis_date": "2025-05-28T10:27:33.949303",
     "version": "2.1",
     "data_points": 667,
     "duration_minutes": 11.183333333333334,
@@ -20,10 +20,10 @@
       "avg_acceleration": 0.20711810978423906,
       "std_acceleration": 0.6069385050465063,
       "avg_jerk": 0.4140559308751753,
-      "std_jerk": 20.07697614199011,
+      "std_jerk": 20.076976141990112,
       "avg_turning_rate": 0.033799389408099685,
       "std_turning_rate": 0.03580374734063827,
-      "energy_efficiency": 12.895644026234034,
+      "energy_efficiency": 12.895644026208847,
       "total_time_s": 457.0,
       "total_distance_km": 5.405167980833333,
       "driver_type": "efficient"
@@ -31,14 +31,14 @@
     "1": {
       "size": 291,
       "avg_speed": 1.7738521754486445,
-      "std_speed": 3.092929962169574,
+      "std_speed": 3.0929299621695736,
       "avg_acceleration": -0.24811602138220692,
       "std_acceleration": 0.6015245423812755,
       "avg_jerk": 0.1779191909614681,
-      "std_jerk": 10.07745662861119,
+      "std_jerk": 10.077456628611193,
       "avg_turning_rate": 0.014067807560137457,
       "std_turning_rate": 0.02877843886717631,
-      "energy_efficiency": 0.7489976406920852,
+      "energy_efficiency": 0.7489976407019325,
       "total_time_s": 438.0,
       "total_distance_km": 1.8488336013888884,
       "driver_type": "cautious"
@@ -49,11 +49,11 @@
       "std_speed": 2.7917045681903523,
       "avg_acceleration": 0.4107137323232324,
       "std_acceleration": 0.5642062095140572,
-      "avg_jerk": -1.2596828459909546,
-      "std_jerk": 22.28042994721487,
+      "avg_jerk": -1.2596828459909548,
+      "std_jerk": 22.280429947214873,
       "avg_turning_rate": 0.25887781818181826,
       "std_turning_rate": 0.08905385641515348,
-      "energy_efficiency": 7.166675310976508,
+      "energy_efficiency": 7.166675310976917,
       "total_time_s": 157.0,
       "total_distance_km": 0.9066481477777777,
       "driver_type": "cornering"
